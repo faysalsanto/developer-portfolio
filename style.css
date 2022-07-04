@@ -8,7 +8,7 @@ h1{
 .orange{
     color: orange;
 }
-section{
+.flexibale-container{
     display: flex;
 }
 .half-width{
@@ -37,4 +37,22 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat:no-repeat;
     background-position: right;
+}
+.Experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.Experience-contan{
+
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 30px gray;
+}
+#full-stack{
+    border-left: 7px solid tomato;
+}
+#baby-wev{
+    border-left: 7px solid blue;
 }
